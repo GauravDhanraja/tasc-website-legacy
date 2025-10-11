@@ -20,6 +20,9 @@
 		<a href="/team/2024">
 			<button class={`text-xl md:text-2xl ${year === '2024' ? 'underline underline-offset-4' : 'no-underline'}`}> 2024-25 </button>
 		</a>
+		<a href="/team/2025">
+			<button class={`text-xl md:text-2xl ${year === '2025' ? 'underline underline-offset-4' : 'no-underline'}`}> 2025-26 </button>
+		</a>
 	</div>
 	<MemberCardGrid members={data.members} />
 </div>
